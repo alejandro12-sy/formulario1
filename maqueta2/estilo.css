@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-color: beige;
+}
+#header{
+    width: 900px;
+    height: 150px;
+    background-color: blue;
+    margin: 0 auto;
+    display: flex;
+}
+#logo{
+    width: 224px;
+    height: 150px;
+    background-color:red;
+    float: left;
+}
+
+

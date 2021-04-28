@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+#header {
+  
+    width: 1000px;
+    height: 110px;
+    background-color: blue;
+    margin: 0 auto;
+    display: flex;
+
+
+}
+.titu h1
+{
+    position:relative;
+  left: 150px;
+    display: flex;
+    top: 20px;
+    justify-content: center
+    
+
+}
+/* nav a{
+    width: 900px;
+    height: 50px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 12px;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    display: flex;
+
+} */
+#menu {
+    width: 1000px;
+    height: 40px;
+    top: 30px;
+    background-color: red;
+    margin:  auto;
+    display: flex;
+    border: 2px solid #000;
+}
+
+
+/* #menu .1{
+    width: 90px;
+    height: 50px;
+    background-color:seagreen;
+    margin: 0 auto;
+    display: flex;
+} */
+#caja input{
+    position: relative;
+    left:10px;
+top: 6px;
+   margin: 5px;
+  
+    color: black;
+    font-size: 17px;
+ 
+    
+
+    
+}
+#icobusqueda{
+position: relative;
+
+    /* position:absolute;
+    poner position:absolute; esta para poder mover los cuadros  
+    left:1090px;
+    top: 127px; */
+    top: 10px;
+    left: 301px;
+
+}
+#logo{
+    position: absolute;
+    width: 130px;
+    height: 100px;
+    top: 10px;
+    background-color:red;
+    float: left;
+
+}
+#imagen{
+    position: relative;
+top: 16px;
+ width: 1000px;
+    height: 250px;
+    background-color:blanchedalmond;
+    margin:  auto;
+    display: flex;
+   
+}
+#contenido{
+    position: relative;
+/* top: -465px;
+ width: 637px;
+    height: 640px;
+    right: 185px; */
+
+   top: -469px;
+   width: 680px;
+   height: 1000px;
+   left: -160px;
+
+    background-color:blueviolet;
+    /* margin:  auto;
+    display: flex; */
+    margin:  auto;
+      display: flex;
+}
+#video{
+  position: relative;
+  top: 40px;
+  left: 350px;
+ width: 300px;
+height: 250px;
+margin:  auto;
+    display: flex;
+    
+    
+    background-color: chartreuse;
+
+}
+.soci p{
+    position: absolute;
+    width: 290px;
+    height: 30px;
+    top: 15px;
+    left: 4px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center
+}
+/* .viiiii iframe {
+    position: relative;
+    top: 10px;
+    width:  100px;
+    height: 100px;
+    left: 20px;
+} */
+#opciones{
+    position: relative;
+    top: 62px;
+    left: 350px;
+   width: 300px;
+  height: 260px;
+  
+      
+      background-color: violet;
+      margin:  auto;
+      display: flex;
+  }
+
+  .opc {
+     position: absolute;
+     top: 60px; 
+     height: 100px;
+     width: 100px;
+     left: 29px;
+   
+    
+
+  }
+
+  .navegiti P{
+      position: absolute;
+    width: 290px;
+    height: 30px;
+    top: 15px;
+    left: 9px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center
+  }
+
+
+#piedepagina{
+    position: relative;
+    margin:  auto;
+      display: flex;
+      left: -1px;
+    background-color: darkturquoise;
+width: 1000px;
+    height: 20px;
+    
+    bottom: 460px
+    
+   
+    
+
+
+
+}
+ #a1 p{
+     
+    position: absolute;
+    height: 28px;
+    width: 650px;
+  
+    left: 16px;
+    bottom: 965px;
+    margin:  auto;
+    display: flex;
+    background-color: rgb(17, 0, 255);
+    
+}
+/* #imagencontenido{
+    position: relative;
+    width: 970px;
+    height: 200px;
+    background-color:red;
+    right: 500px;
+    bottom: 30px;
+    margin:  auto;
+    display: flex;
+    
+      
+
+} */
+
+#imagencontenido img{
+    position: absolute;
+    height: 220px;
+    width: 200px;
+    right: 465px;
+    top: 56px;
+    background-color: brown;
+}
+#texto p{
+    position: absolute;
+    height: 220px;
+    width: 400px;
+    right: 20px;
+    top: 60px;
+    background-color: blanchedalmond;
+    
+}
+ #Download {
+    
+   position:absolute;
+    top: 300px;
+    left: 150px;
+    margin: 20px;
+    color: black;
+    font-size: 50px;
+ 
+    
+    
+    
+
+    
+  
+    
+}
+#purchase{
+    position:absolute;
+    top: 300px;
+    left: 350px;
+    margin: 20px;
+    color: black;
+    font-size: 50px;
+  
+}
+.a1 {
+    position: absolute;
+    height: 28px;
+    width: 650px;
+  top: 410px;
+    
+    left: 19px;
+    
+    background-color: rgb(17, 0, 255);
+}
+.imagen1 img{
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    background-color: lightblue;
+    top: 460px;
+    left: 20px;
+
+}
+.texto1 p{
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    top: 590px;
+    background-color: antiquewhite;
+    left: 20px;
+
+}
+
+.imagen2 img{
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    background-color:lightgreen;
+    top: 460px;
+    left: 190px;
+    
+}
+.texto2 p{
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    top: 590px;
+    background-color: antiquewhite;
+    left: 190px;
+
+}
+.imagen3 img{
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    background-color: lightblue;
+    top: 460px;
+    left: 370px;
+    
+}
+.texto3 p{
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    top: 590px;
+    background-color: antiquewhite;
+    left: 370px;
+
+}
+.imagen4 img{
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    background-color: lightblue;
+    top: 460px;
+    left: 550px;
+    
+}
+.texto4 p{
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    top: 590px;
+    background-color: antiquewhite;
+    left: 550px;
+}
+.parrafo p{
+    position: absolute;
+    height: 228px;
+    width: 650px;
+  top: 760px;
+    
+    left: 19px;
+    
+    background-color: rgb(17, 0, 255);
+
+
+
+
+}
+#pi2 {
+   position:relative;
+   bottom: 470px;
+    display: flex;
+    justify-content: center
+    
+
+
+}
+.padre{
+    bottom: 100px;
+  padding: 10px;
+  margin: 10px;
+  
+  /* IMPORTANTE */
+  /* display: inline-block; */
+
+  
+}
+.texpiedepagina{
+    position:relative;
+   bottom: 480px;
+    display: flex;
+    justify-content: center
+}
+.texss p{
+    bottom: 90px;
+  padding: 10px;
+  margin: 10px;
+  color:black;
+}
+
